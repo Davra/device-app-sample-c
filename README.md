@@ -1,2 +1,4 @@
 # device-app-sample-c
-Some sample code in C to communicate with the Davra platform
+This repo containes some sample code in C to communicate with the Davra platform. It has been compiled and tested on Ubuntu 18.04.
+
+
