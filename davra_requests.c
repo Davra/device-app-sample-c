@@ -30,13 +30,13 @@ int main() {
 
     //API endpoint for creating and updating new devices in Davra
     //More information here: http://help.davra.com/#/api/devices/createupdate
-    char devices_payload[] = "{\"name\": \"testDeviceFromCppApp\",\"serialNumber\": \"testSerialNumberCapp1\"}";
+    char devices_payload[] = "{\"name\": \"testDeviceFromCApp\",\"serialNumber\": \"testSerialNumberCApp1\"}";
     char devices_endpoint[] = "https://demo.davra.com/api/v1/devices";
 
     //API endpoint for sending metric and event data to Davra
     //More information here: http://help.davra.com/#/api/iotdata/put-iotdata
     char iotdata_endpoint[] = "https://demo.davra.com/api/v1/iotdata";
-    char iotdata_payload[] = "{\"UUID\": \"testSerialNumberCapp1\",\"name\": \"rssi\",\"value\": -65,\"msg_type\": \"datum\"}";
+    char iotdata_payload[] = "{\"UUID\": \"testSerialNumberCApp1\",\"name\": \"rssi\",\"value\": -65,\"msg_type\": \"datum\"}";
 
     //Token for authentication
     char bearer_token[] = "your_own_token_here";
